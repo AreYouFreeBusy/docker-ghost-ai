@@ -1,11 +1,4 @@
 trigger:
-  branches:
-    include:
-    - master
-  paths:
-    exclude:
-    - '**/README.md'
-    - LICENSE
 
 pool:
   vmImage: 'ubuntu-latest'
